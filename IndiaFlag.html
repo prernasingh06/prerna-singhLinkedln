@@ -1,0 +1,163 @@
+<html>
+    <head>
+<style>
+.flag{
+    margin: 10%;
+    width: 30%;
+    height: 80%;
+}
+
+ .flagshape{
+    margin: auto;
+    width: 97.3%;
+    height: 32%;
+    float: right;
+}
+.flagshape>.top , .mid , .bottom {
+    width: 100%;
+    height: inherit;
+}
+
+.top{
+    background-color: orange;
+}
+
+.bottom{
+    background-color: green;
+}
+
+.flagstand{
+    border: solid brown;
+    background: brown;
+    margin: 0%;
+    width: 1%;
+    height: 100%;
+    float: left;
+}
+
+.mid>.circle{
+    border: solid 1px darkblue;
+    width: 20px;
+    margin:0 auto;
+    height:20px;
+    border-radius: 45px;
+    position: relative;
+   animation-name: circleRotate;
+   animation-duration: 5s;
+   animation-timing-function: linear;
+   animation-iteration-count: infinite; 
+   
+}
+
+@keyframes circleRotate{
+  0%{  transform: rotate(0deg);
+  }
+
+  100%{
+      transform: rotate(360deg);
+  }
+
+}
+
+.circle .line1{
+    display: inline-block;
+    height: inherit;
+    width: 1px;
+    position: absolute;
+    left: 50%;
+    height: 100%;
+    background: darkblue;
+}
+
+.line1:nth-child(1){
+    transform: rotate(15deg)
+}
+.line1:nth-child(2){
+    transform: rotate(30deg)
+}
+.line1:nth-child(3){
+    transform: rotate(45deg)
+}
+.line1:nth-child(4){
+    transform: rotate(60deg)
+}
+.line1:nth-child(5){
+    transform: rotate(75deg)
+}
+.line1:nth-child(6){
+    transform: rotate(90deg)
+}
+.line1:nth-child(7){
+    transform: rotate(105deg)
+}
+.line1:nth-child(8){
+    transform: rotate(120deg)
+}
+.line1:nth-child(9){
+    transform: rotate(135deg)
+}
+.line1:nth-child(10){
+    transform: rotate(135deg)
+}
+.line1:nth-child(11){
+    transform: rotate(150deg)
+}
+.line1:nth-child(12){
+    transform: rotate(165deg)
+}
+.line1:nth-child(13){
+    transform: rotate(180deg)
+}
+
+
+
+</style>
+</head>
+
+<body>
+<div class="container">
+    <h1  class="mask1" > 
+       INDIA  
+    </h1>
+
+   
+
+    <div class="flag">
+            <div class="flagstand">
+                </div>
+
+        <div class="flagshape">
+            <div class="top ">
+
+            </div>
+
+            <div class="mid">
+    <div class="circle">
+ 
+            <div class="line1"></div>
+            <div class="line1"></div>
+            <div class="line1"></div>
+            <div class="line1"></div>
+            <div class="line1"></div>
+            <div class="line1"></div>
+            <div class="line1"></div>
+            <div class="line1"></div>
+            <div class="line1"></div>
+            <div class="line1"></div>
+            <div class="line1"></div>
+            <div class="line1"></div>
+            <div class="line1"></div>
+
+    </div>
+</div>
+
+                <div class="bottom">
+
+                    </div>
+        </div>
+    </div>
+</div>
+
+</body>
+
+</html>
